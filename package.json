@@ -1,0 +1,24 @@
+{
+  "name": "developprofilegenerator",
+  "version": "1.0.0",
+  "description": "application that dynamically generates a PDF profile from a GitHub username.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelr14/DevelopProfileGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelr14/DevelopProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/manuelr14/DevelopProfileGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.4"
+  }
+}
