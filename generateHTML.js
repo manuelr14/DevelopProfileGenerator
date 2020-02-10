@@ -179,7 +179,7 @@ const colors = {
            }
         </style>
         </head>
-        <body>
+<body>
   
       <div class="wrapper">
           <div class="photo-header">
@@ -236,9 +236,9 @@ const colors = {
           </div>
         </div>
     </div>
-    <div class="wrapper"></div>
-    </div>
-        </body>`
-          }
+<div class="wrapper"></div>
+</div>
+</body>`
+}
           
-          module.exports = {generateHTML: generateHTML}
+module.exports = {generateHTML: generateHTML}
