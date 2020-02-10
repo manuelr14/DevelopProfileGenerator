@@ -101,6 +101,7 @@ const colors = {
            border-radius: 6px;
            }
            .photo-header img {
+            position:absolute;
            width: 250px;
            height: 250px;
            border-radius: 50%;
@@ -137,6 +138,12 @@ const colors = {
            padding-left: 100px;
            padding-right: 100px;
            }
+           .container-photo {
+            margin-top: 110px;;
+          padding: 50px;
+          padding-left: 100px;
+          padding-right: 100px;
+          }
   
            .row {
              display: flex;
@@ -175,27 +182,29 @@ const colors = {
         <body>
   
       <div class="wrapper">
-      <div class="photo-header">
-        <img class="photo-header img" src="${data.profileimage}">
-        <div class="container">
-        <h1>Hi!</h1>
-        <h1>My name is ${data.name}!</h1>
-        <h2>Currently @ ${data.company}</h2>
-        <div class="links-nav">
-        <a class="nav-link" href="https://www.google.com/maps/place/${data.location}" target="_blank">${data.location}</a>
-        <a class="nav-link" href="${data.url}" target="_blank">GitHub Profile</a>
-        <a class="nav-link" href="${data.blog}" target="_blank">Blog</a>
-      </div>
-        
-        </div>
-      </div>
-  
-    <div class="container">
-      <div class="main">
-      <div class="container">
-           <div class="row">
-                <h1> ${data.bio} </h1>
+          <div class="photo-header">
+            <div class="photo-header img">
+              <img  src="${data.profileimage}">
             </div>
+          <div class="container-photo">
+            <h1>Hi!</h1>
+            <h1>My name is ${data.name}!</h1>
+            <h2>Currently @ ${data.company}</h2>
+              
+            <div class="links-nav">
+              <a class="nav-link" href="https://www.google.com/maps/place/${data.location}" target="_blank">${data.location}</a>
+              <a class="nav-link" href="${data.url}" target="_blank">GitHub Profile</a>
+              <a class="nav-link" href="${data.blog}" target="_blank">Blog</a>
+            </div>
+          </div>
+          </div>
+  
+        <div class="container">
+          <div class="main">
+            <div class="container">
+              <div class="row">
+                <h1> ${data.bio} </h1>
+              </div>
             <div class="row">
                 <div class="col">
                     <div class="card">
@@ -225,7 +234,7 @@ const colors = {
                 </div>
              </div>
              </div>
-      </div>
+        </div>
     </div>
     <div class="wrapper"></div>
     </div>

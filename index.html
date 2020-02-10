@@ -24,7 +24,7 @@
            height: 100%;
            }
            .wrapper {
-           background-color: #E6E1C3;
+           background-color: #879CDF;
            padding-top: 100px;
            }
            body {
@@ -66,19 +66,20 @@
            display: flex;
            justify-content: center;
            flex-wrap: wrap;
-           background-color: #C1C72C;
-           color: black;
+           background-color: #FF8374;
+           color: white;
            padding: 10px;
            width: 95%;
            border-radius: 6px;
            }
            .photo-header img {
+            position:absolute;
            width: 250px;
            height: 250px;
            border-radius: 50%;
            object-fit: cover;
            margin-top: -75px;
-           border: 6px solid #black;
+           border: 6px solid #FEE24C;
            box-shadow: rgba(0, 0, 0, 0.3) 4px 1px 20px 4px;
            }
            .photo-header h1, .photo-header h2 {
@@ -109,6 +110,12 @@
            padding-left: 100px;
            padding-right: 100px;
            }
+           .container-photo {
+            margin-top: 110px;;
+          padding: 50px;
+          padding-left: 100px;
+          padding-right: 100px;
+          }
   
            .row {
              display: flex;
@@ -121,8 +128,8 @@
            .card {
              padding: 20px;
              border-radius: 6px;
-             background-color: #C1C72C;
-             color: black;
+             background-color: #FF8374;
+             color: white;
              margin: 20px;
            }
            
@@ -147,27 +154,29 @@
         <body>
   
       <div class="wrapper">
-      <div class="photo-header">
-        <img class="photo-header img" src="https://avatars1.githubusercontent.com/u/55258379?v=4">
-        <div class="container">
-        <h1>Hi!</h1>
-        <h1>My name is Manuel Ramirez!</h1>
-        <h2>Currently @ GA tech student</h2>
-        <div class="links-nav">
-        <a class="nav-link" href="https://www.google.com/maps/place/Atlanta, GA" target="_blank">Atlanta, GA</a>
-        <a class="nav-link" href="https://github.com/manuelr14" target="_blank">GitHub Profile</a>
-        <a class="nav-link" href="" target="_blank">Blog</a>
-      </div>
-        
-        </div>
-      </div>
-  
-    <div class="container">
-      <div class="main">
-      <div class="container">
-           <div class="row">
-                <h1> Telecommunication Engineer and Full stack Web developer  </h1>
+          <div class="photo-header">
+            <div class="photo-header img">
+              <img  src="https://avatars1.githubusercontent.com/u/55258379?v=4">
             </div>
+          <div class="container-photo">
+            <h1>Hi!</h1>
+            <h1>My name is Manuel Ramirez!</h1>
+            <h2>Currently @ GA tech student</h2>
+              
+            <div class="links-nav">
+              <a class="nav-link" href="https://www.google.com/maps/place/Atlanta, GA" target="_blank">Atlanta, GA</a>
+              <a class="nav-link" href="https://github.com/manuelr14" target="_blank">GitHub Profile</a>
+              <a class="nav-link" href="" target="_blank">Blog</a>
+            </div>
+          </div>
+          </div>
+  
+        <div class="container">
+          <div class="main">
+            <div class="container">
+              <div class="row">
+                <h1> Telecommunication Engineer and Full stack Web developer  </h1>
+              </div>
             <div class="row">
                 <div class="col">
                     <div class="card">
@@ -197,7 +206,7 @@
                 </div>
              </div>
              </div>
-      </div>
+        </div>
     </div>
     <div class="wrapper"></div>
     </div>
