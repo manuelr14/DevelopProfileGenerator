@@ -218,7 +218,7 @@ const colors = {
                          <h5> ${data.followers}</h5>
                      </div>
                 </div>
-             </div>
+            </div>
              <div class="row">
                 <div class="col">
                     <div class="card">
@@ -232,8 +232,8 @@ const colors = {
                          <h5> ${data.following} <h5>
                      </div>
                 </div>
-             </div>
-             </div>
+            </div>
+          </div>
         </div>
     </div>
     <div class="wrapper"></div>
